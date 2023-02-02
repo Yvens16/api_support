@@ -1,0 +1,8 @@
+<p>parent works!</p>
+    <!-- id="{{'m' + elementid}}" -->
+    <!-- [id]="'m' + elementid" -->
+
+<app-enfant [message]=" 'Nouveau message depuis parent' + title "></app-enfant>
+<app-enfant message="{{ 'mon string en dure' + title}}"></app-enfant>
+<app-enfant message="mon String en dure"></app-enfant>
+<app-enfant [message]="title"></app-enfant>

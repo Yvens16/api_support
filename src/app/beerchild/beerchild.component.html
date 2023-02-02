@@ -1,0 +1,11 @@
+
+
+<!-- name, tagline, first_brewed, description, image_url -->
+
+<div>
+  <h1>{{beer?.name}}</h1><br>
+  <h3>{{beer?.tagline}}</h3>
+  <img [src]="beer?.image_url">
+  <p>{{beer?.description}}</p>
+  <button (click)="deleteBeer()">Supprimer la bière</button>
+</div>

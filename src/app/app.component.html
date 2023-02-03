@@ -1,14 +1,1 @@
 <h1>{{title}}</h1>
-
-
-<div *ngIf="quotes.length">
-  <h1>J'ai mes données</h1>
-  <div *ngFor="let quote of quotes">
-    <h1>{{ quote.quote }}</h1>
-    <h2>Dites par {{ quote.character }}</h2>
-    <!-- id="{{'m' + elementid}}" -->
-    <!-- [id]="'m' + elementid" -->
-    <img src={{quote.image}} alt="{{'Image de ' + quote.character}}">
-  </div>
-</div>
-<!-- <button (click)="onClick()">Click me</button> -->

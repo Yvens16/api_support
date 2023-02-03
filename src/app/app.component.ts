@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   ngOnInit() {
-    // Traitement avant le chargement de la page
+    // Traitement avant le chargement de la page 
     this.getSimpsonsQuoteObserver();
   }
 
